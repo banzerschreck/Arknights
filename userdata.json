@@ -1,0 +1,25 @@
+{
+  "Grani": {
+    "Rarity": 5,
+    "Class": "Vanguard",
+    "Role": "DP on Kill",
+    "Rating": "A-",
+    "Stats": {
+      "HP": 2235,
+      "ATK": 552,
+      "DEF": 367,
+      "RES": 0,
+      "Redeploy Time": 80,
+      "DP Cost": 14,
+      "Block": 1,
+      "Attack Interval": 1
+    },
+    "Elite": 1,
+    "Level": 46,
+    "EXP": 1130,
+    "Skill": 1,
+    "SkillSpec1": 0,
+    "SkillSpec2": 0,
+    "SkillSpec3": -1
+  }
+}
