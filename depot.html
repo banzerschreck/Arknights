@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Depot</title>
+  <script src="depot.js"></script>
+</head>
+<body>
+  <h1><a href="./">Arknights - Depot</a></h1>
+  <h2>Materials</h2>
+  <table id="materialTable">
+    <tr>
+      <td>D32 Steel</td><td id="d32steel"></td>
+      <td>Bipolar Nanoflake</td><td id="bipolarnanoflake"></td>
+      <td>Polymerization Prep</td><td id="polymerizationprep"></td>
+    </tr>
+    <tr>
+      <td>White Horse Kohl</td><td id="whitehorsekohl"></td>
+      <td>Manganese Trihydrate</td><td id="manganesetrihydrate"></td>
+      <td>Grindstone Pentahydrate</td><td id="grindstonepentahydrate"></td>
+      <td>RMA 70-24</td><td id="rma7024"></td>
+      <td>Orirock Concentration</td><td id="orirockconcentration"></td>
+      <td>Optimized Device</td><td id="optimizeddevice"></td>
+      <td>Polyester Lump</td><td id="polyesterlump"></td>
+      <td>Sugar Lump</td><td id="sugarlump"></td>
+      <td>Oriron Block</td><td id="orironblock"></td>
+      <td>Keton Colloid</td><td id="ketoncolloid"></td>
+      <td>Polymerized Gel</td><td id="polymerizedgel"></td>
+      <td>Incandescent Alloy Block</td><td id="incandescentalloyblock"></td>
+    </tr>
+    <tr>
+      <td>Loxic Kohl</td><td id="loxickohl"></td>
+      <td>Manganese Ore</td><td id="manganese ore"></td>
+      <td>Grindstone</td><td id="grindstone"></td>
+      <td>RMA 70-12</td><td id="rma7012"></td>
+      <td>Orirock Cluster</td><td id="orirockcluster"></td>
+      <td>Integrated Device</td><td id="integrateddevice"></td>
+      <td>Polyester Pack</td><td id="polyesterpack"></td>
+      <td>Sugar Pack</td><td id="sugarpack"></td>
+      <td>Oriron Cluster</td><td id="orironcluster"></td>
+      <td>Aketon</td><td id="aketon"></td>
+      <td>Coagulating Gel</td><td id="coagulatinggel"></td>
+      <td>Incandescent Alloy</td><td id="incandescentalloy"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Orirock Cube</td>
+      <td id="orirockcube"></td>
+      <td>Device</td>
+      <td id="device"></td>
+      <td>Polyester</td>
+      <td id="polyester"></td>
+      <td>Sugar</td>
+      <td id="sugar"></td>
+      <td>Oriron</td>
+      <td id="Oriron"></td>
+      <td>Polyketon</td>
+      <td id="polyketon"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Orirock</td>
+      <td id="orirock"></td>
+      <td>Damaged Device</td>
+      <td id="damageddevice"></td>
+      <td>Ester</td>
+      <td id="ester"></td>
+      <td>Sugar Substitute</td>
+      <td id="sugarsubstitute"></td>
+      <td>Oriron Shard</td>
+      <td id="orironshard"></td>
+      <td>Diketon</td>
+      <td id="diketon"></td>
+    </tr>
+  </table>
+  
+  <table id="chipTable">
+    <tr>
+      <th><h2>Chips</h2></th>
+      <th>Vanguard</th>
+      <th>Guard</th>
+      <th>Defender</th>
+      <th>Sniper</th>
+      <th>Caster</th>
+      <th>Medic</th>
+      <th>Supporter</th>
+      <th>Specialist</th>
+    </tr>
+    <tr>
+      <th>Dualchips</th>
+      <td id="vanguarddualchips"></td>
+      <td id="guarddualchips"></td>
+      <td id="defenderdualchips"></td>
+      <td id="sniperdualchips"></td>
+      <td id="casterdualchips"></td>
+      <td id="medicdualchips"></td>
+      <td id="supporterdualchips"></td>
+      <td id="specialistdualchips"></td>
+    </tr>
+    <tr>
+      <th>Chip Packs</th>
+      <td id="vanguardchippack"></td>
+      <td id="guardchippack"></td>
+      <td id="defenderchippack"></td>
+      <td id="sniperchippack"></td>
+      <td id="casterchippack"></td>
+      <td id="medicchippack"></td>
+      <td id="supporterchippack"></td>
+      <td id="specialistchippack"></td>
+    </tr>
+    <tr>
+      <th>Chips</th>
+      <td id="vanguardchip"></td>
+      <td id="guardchip"></td>
+      <td id="defenderchip"></td>
+      <td id="sniperchip"></td>
+      <td id="casterchip"></td>
+      <td id="medicchip"></td>
+      <td id="supporterchip"></td>
+      <td id="specialistchip"></td>
+    </tr>
+  </table>
+  <h2>Skill Summaries</h2>
+  <table id="skillTable">
+    <tr>
+      <td>Skill Summary 3</td>
+      <td id="skillsummary3"></td>
+      <td>Skill Summary 2</td>
+      <td id="skillsummary2"></td>
+      <td>Skill Summary 1</td>
+      <td id="skillsummary1"></td>
+    </tr>
+  </table>
+  <h2>EXP</h2>
+  <table id="expTable">
+    <tr>
+      <td>Strategic Battle Records</td>
+      <td id="strategicbattlerecord"></td>
+      <td>Tactical Battle Records</td>
+      <td id="tacticalbattlerecord"></td>
+      <td>Frontline Battle Records</td>
+      <td id="frontlinebattlerecord"></td>
+      <td>Drill Battle Records</td>
+      <td id="drillbattlerecord"></td>
+    </tr>
+  </table>
+  <h2>LMD</h2>
+  <p id="lmd">0</p>
+</body>
+</html>
